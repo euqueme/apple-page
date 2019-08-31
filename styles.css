@@ -139,23 +139,16 @@ li a {
 }
 
 /* Page Generals */
-
-.position-absolute {
-  position: absolute;
+.position-relative {
+  position: relative;
 }
 
-.align-horizontally {
-  margin: 10%;
+.float-left {
+  float: left;
 }
 
-.margin-t70 {
-  margin-top: 70px;
-}
-
-.bg-gray {
-  /*background-image: linear-gradient(#333333, #6e6e6e);*/
-  background-image: linear-gradient(#6e6e6e 50%, #515151 50%, #6e6e6e);
-  border-radius: 5px;
+.width70 {
+  width: 70%;
 }
 
 .width80 {
@@ -166,24 +159,57 @@ li a {
   width: 90%;
 }
 
-.height40 {
-  height: 37px;
+.width100 {
+  width: 100%;
 }
 
-.margin-center {
-  margin: 5% 10%;
+.height90 {
+  height: 90px;
 }
 
-nav ul {
+.height100 {
   height: 100%;
+}
+
+/* Header */
+
+header nav {
+  position: absolute;
+  margin: 10%;
+  margin-top: 70px;
+  height: 35px;
+}
+
+.bg-gray {
+  background-image: linear-gradient(
+    rgb(128, 128, 128) 50%,
+    rgb(100, 100, 100) 51%,
+    rgb(100, 100, 100) 61%,
+    rgb(128, 128, 128)
+  );
+  border-radius: 6px;
+  border: rgb(158, 158, 158) 1px outset;
 }
 
 nav ul li {
   float: left;
-  width: 10.9%;
-  border-right: #2c3e50 0.1px solid;
+  width: 10.8%;
   height: 100%;
   position: relative;
+  background-image: linear-gradient(
+    90deg,
+    transparent 97%,
+    rgb(138, 138, 138),
+    rgb(138, 138, 138) 98%,
+    rgb(95, 95, 95),
+    rgb(95, 95, 95) 99%,
+    rgb(138, 138, 138),
+    rgb(138, 138, 138) 100%
+  );
+}
+
+nav ul li:hover {
+  background-image: radial-gradient(rgb(45, 45, 45), transparent 100%);
 }
 
 nav ul li a {
@@ -208,29 +234,44 @@ nav ul li a p {
 #search-bar {
   width: 12.7%;
   border-right: none;
+  background: url(img/search1.png) 15% 50% no-repeat;
 }
 
-.search-opacity {
-  opacity: 0.13;
-  filter: alpha(opacity=13); /* For IE8 and earlier */
-}
-
-#search-a {
-  width: 80%;
+nav ul li a input {
   height: 60%;
   margin: 5% 10%;
   border-radius: 10px;
   border: black 1px solid;
   border-bottom: none;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.39), 0 -1px 1px #fff, 0 1px 0 #fff;
-  background-image: url(img/search.png);
-  background-repeat: no-repeat;
-  background-size: 22px;
-  background-position: left;
+  opacity: 0.13;
+  filter: alpha(opacity=13); /* For IE8 and earlier */
 }
 
+/* Main*/
+
 main {
-  width: 100%;
   height: 525px;
-  background-image: url(img/hero.jpg);
+  background: url(img/hero.jpg) 50% 100% no-repeat;
+}
+
+#verse1 {
+  background: url(img/verse1.png) 50% 50% no-repeat;
+  margin: 10% 15% 0 15%;
+}
+
+#verse2 {
+  background: url(img/verse2.png) 50% 50% no-repeat;
+  margin: 0 10% 2% 10%;
+}
+
+#verse3 {
+  background: url(img/verse3.png) 50% 5% no-repeat;
+  height: 30px;
+  margin: 0 15%;
+}
+
+#verse3:hover {
+  background: url(img/verse3.png) 50% 100% no-repeat;
+  cursor: pointer;
 }
