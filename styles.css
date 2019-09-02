@@ -280,11 +280,12 @@ nav ul li a p {
 }
 
 #search-bar a {
-  width: 100%;
+  width: 50%;
+  right: 40%;
   background: url(img/search1.png) 15% 50% no-repeat;
 }
 
-nav ul li a input {
+nav ul li input {
   height: 60%;
   margin: 5% 10%;
   border-radius: 10px;
