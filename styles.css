@@ -218,7 +218,7 @@ header nav {
       rgb(100, 100, 100) 51%,
       rgb(100, 100, 100) 61%,
       rgb(128, 128, 128)
-  );
+    );
   border-radius: 6px;
   border: rgb(158, 158, 158) 1px outset;
 }
@@ -244,7 +244,7 @@ nav ul li {
       rgb(95, 95, 95) 99%,
       rgb(138, 138, 138),
       rgb(138, 138, 138) 100%
-  );
+    );
 }
 
 section ul li {
@@ -290,7 +290,7 @@ nav ul li a {
       transparent,
       rgba(100, 100, 100, 0.6),
       transparent
-  );
+    );
 }
 
 nav ul li a p {
@@ -329,7 +329,7 @@ nav ul li a:hover {
       rgba(1, 1, 1, 0.4) 85%,
       rgba(1, 1, 1, 0.4),
       transparent
-  );
+    );
 }
 
 #search-bar {
@@ -340,7 +340,7 @@ nav ul li a:hover {
       transparent,
       rgba(100, 100, 100, 0.6),
       transparent
-  );
+    );
 }
 
 #search-bar a {
