@@ -85,7 +85,9 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -115,10 +117,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: "";
   content: none;
 }
@@ -210,7 +212,8 @@ header nav {
 }
 
 .bg-gray {
-  background-image: linear-gradient(
+  background-image: 
+  linear-gradient(
     rgb(128, 128, 128) 50%,
     rgb(100, 100, 100) 51%,
     rgb(100, 100, 100) 61%,
@@ -219,6 +222,7 @@ header nav {
   border-radius: 6px;
   border: rgb(158, 158, 158) 1px outset;
 }
+
 section ul {
   width: 100%;
   height: 200px;
@@ -230,7 +234,8 @@ nav ul li {
   width: 10.95%;
   height: 100%;
   position: relative;
-  background-image: linear-gradient(
+  background-image: 
+  linear-gradient(
     90deg,
     transparent 97%,
     rgb(138, 138, 138),
@@ -280,7 +285,8 @@ nav ul li a {
   height: 100%;
   position: absolute;
   text-align: center;
-  background-image: linear-gradient(
+  background-image: 
+  linear-gradient(
     transparent,
     rgba(100, 100, 100, 0.6),
     transparent
@@ -312,23 +318,25 @@ footer ul li a:hover {
   text-decoration: underline;
 }
 
+nav ul li a:hover {
+  background: rgba(1, 1, 1, 0.4);
+}
+
 .apple-logo a:hover {
   background: none;
-  background-image: radial-gradient(
+  background-image: 
+  radial-gradient(
     rgba(1, 1, 1, 0.4) 85%,
     rgba(1, 1, 1, 0.4),
     transparent
   );
 }
 
-nav ul li a:hover {
-  background: rgba(1, 1, 1, 0.4);
-}
-
 #search-bar {
   width: 12.4%;
   border-right: none;
-  background-image: linear-gradient(
+  background-image: 
+  linear-gradient(
     transparent,
     rgba(100, 100, 100, 0.6),
     transparent
