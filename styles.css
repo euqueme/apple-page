@@ -212,12 +212,12 @@ header nav {
 }
 
 .bg-gray {
-  background-image: 
-  linear-gradient(
-    rgb(128, 128, 128) 50%,
-    rgb(100, 100, 100) 51%,
-    rgb(100, 100, 100) 61%,
-    rgb(128, 128, 128)
+  background-image:
+    linear-gradient(
+      rgb(128, 128, 128) 50%,
+      rgb(100, 100, 100) 51%,
+      rgb(100, 100, 100) 61%,
+      rgb(128, 128, 128)
   );
   border-radius: 6px;
   border: rgb(158, 158, 158) 1px outset;
@@ -234,16 +234,16 @@ nav ul li {
   width: 10.95%;
   height: 100%;
   position: relative;
-  background-image: 
-  linear-gradient(
-    90deg,
-    transparent 97%,
-    rgb(138, 138, 138),
-    rgb(138, 138, 138) 98%,
-    rgb(95, 95, 95),
-    rgb(95, 95, 95) 99%,
-    rgb(138, 138, 138),
-    rgb(138, 138, 138) 100%
+  background-image:
+    linear-gradient(
+      90deg,
+      transparent 97%,
+      rgb(138, 138, 138),
+      rgb(138, 138, 138) 98%,
+      rgb(95, 95, 95),
+      rgb(95, 95, 95) 99%,
+      rgb(138, 138, 138),
+      rgb(138, 138, 138) 100%
   );
 }
 
@@ -285,11 +285,11 @@ nav ul li a {
   height: 100%;
   position: absolute;
   text-align: center;
-  background-image: 
-  linear-gradient(
-    transparent,
-    rgba(100, 100, 100, 0.6),
-    transparent
+  background-image:
+    linear-gradient(
+      transparent,
+      rgba(100, 100, 100, 0.6),
+      transparent
   );
 }
 
@@ -324,22 +324,22 @@ nav ul li a:hover {
 
 .apple-logo a:hover {
   background: none;
-  background-image: 
-  radial-gradient(
-    rgba(1, 1, 1, 0.4) 85%,
-    rgba(1, 1, 1, 0.4),
-    transparent
+  background-image:
+    radial-gradient(
+      rgba(1, 1, 1, 0.4) 85%,
+      rgba(1, 1, 1, 0.4),
+      transparent
   );
 }
 
 #search-bar {
   width: 12.4%;
   border-right: none;
-  background-image: 
-  linear-gradient(
-    transparent,
-    rgba(100, 100, 100, 0.6),
-    transparent
+  background-image:
+    linear-gradient(
+      transparent,
+      rgba(100, 100, 100, 0.6),
+      transparent
   );
 }
 
