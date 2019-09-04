@@ -148,6 +148,10 @@ li a {
   padding: 0 1px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* Page Generals */
 .position-relative {
   position: relative;
@@ -198,10 +202,15 @@ li a {
 }
 
 /* Header */
+
 main {
   height: 525px;
-  max-width: 1331px;
   background: url(img/hero.jpg) 50% 100% no-repeat;
+}
+
+h1 {
+  visibility: hidden;
+  position: absolute;
 }
 
 header nav {
@@ -248,10 +257,9 @@ nav ul li {
 }
 
 section ul li {
-  width: 25%;
+  width: 24.9%;
   height: 198px;
-  margin: 1px;
-  max-width: 331px;
+  margin: 0.1% 0.1% 0.1% 0;
   position: relative;
 }
 
@@ -387,6 +395,8 @@ nav ul li a:hover {
 
 #supplier {
   background: url(img/promo_supplier.jpg) 45% 50% no-repeat;
+  width: 25%;
+  margin: 0.1% 0 0.1% 0;
 }
 
 .clear {
