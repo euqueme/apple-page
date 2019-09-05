@@ -1,0 +1,422 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background: #eceef1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  color: #6e6e6e;
+  line-height: 1.5;
+}
+
+li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 3;
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+  padding: 0 1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Page Generals */
+.position-relative {
+  position: relative;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.width45 {
+  width: 45%;
+}
+
+.width55 {
+  width: 54%;
+}
+
+.width70 {
+  width: 70%;
+}
+
+.width80 {
+  width: 80%;
+}
+
+.width90 {
+  width: 90%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.height90 {
+  height: 90px;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.hea-foo {
+  width: 74%;
+}
+
+/* Header */
+
+main {
+  height: 525px;
+  background: url(img/hero.jpg) 50% 100% no-repeat;
+}
+
+h1 {
+  visibility: hidden;
+  position: absolute;
+}
+
+header nav {
+  position: absolute;
+  margin: 13%;
+  margin-top: 70px;
+  height: 35px;
+}
+
+.bg-gray {
+  background-image:
+    linear-gradient(
+      rgb(128, 128, 128) 50%,
+      rgb(100, 100, 100) 51%,
+      rgb(100, 100, 100) 61%,
+      rgb(128, 128, 128)
+    );
+  border-radius: 6px;
+  border: rgb(158, 158, 158) 1px outset;
+}
+
+section ul {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+nav ul li {
+  float: left;
+  width: 10.95%;
+  height: 100%;
+  position: relative;
+  background-image:
+    linear-gradient(
+      90deg,
+      transparent 97%,
+      rgb(138, 138, 138),
+      rgb(138, 138, 138) 98%,
+      rgb(95, 95, 95),
+      rgb(95, 95, 95) 99%,
+      rgb(138, 138, 138),
+      rgb(138, 138, 138) 100%
+    );
+}
+
+section ul li {
+  width: 24.9%;
+  height: 198px;
+  margin: 0.1% 0.1% 0.1% 0;
+  position: relative;
+}
+
+footer ul li {
+  margin-bottom: 15px;
+}
+
+main div a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+section ul li a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+footer ul li a {
+  line-height: normal;
+  width: 100%;
+  text-align: center;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 12px;
+  width: 95%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  background-image:
+    linear-gradient(
+      transparent,
+      rgba(100, 100, 100, 0.6),
+      transparent
+    );
+}
+
+nav ul li a p {
+  background-image: url(img/apple-logo.svg);
+  background-position: 50% 0;
+  width: 100%;
+  height: 100%;
+  margin: 3px auto;
+  text-align: center;
+  line-height: 3;
+}
+
+nav ul li input {
+  height: 60%;
+  margin: 5% 10%;
+  border-radius: 10px;
+  border: black 1px solid;
+  border-bottom: none;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.39), 0 -1px 1px #fff, 0 1px 0 #fff;
+  opacity: 0.13;
+  filter: alpha(opacity=13); /* For IE8 and earlier */
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li a:hover {
+  background: rgba(1, 1, 1, 0.4);
+}
+
+.apple-logo a:hover {
+  background: none;
+  background-image:
+    radial-gradient(
+      rgba(1, 1, 1, 0.4) 85%,
+      rgba(1, 1, 1, 0.4),
+      transparent
+    );
+}
+
+#search-bar {
+  width: 12.4%;
+  border-right: none;
+  background-image:
+    linear-gradient(
+      transparent,
+      rgba(100, 100, 100, 0.6),
+      transparent
+    );
+}
+
+#search-bar a {
+  width: 50%;
+  right: 40%;
+  background: url(img/search1.png) 15% 50% no-repeat;
+}
+
+/* Main */
+
+#verse1 {
+  background: url(img/verse1.png) 50% 50% no-repeat;
+  margin: 10% 15% 0 15%;
+}
+
+#verse2 {
+  background: url(img/verse2.png) 50% 50% no-repeat;
+  margin: 0 10% 2% 10%;
+}
+
+#verse3 {
+  background: url(img/verse3.png) 50% 5% no-repeat;
+  height: 30px;
+  margin: 0 15%;
+}
+
+#verse3:hover {
+  background: url(img/verse3.png) 50% 100% no-repeat;
+}
+
+/* Section */
+
+#s-5 {
+  background: url(img/promo_iphone5s.jpg) 50% 50% no-repeat;
+}
+
+#c-5 {
+  background: url(img/promo_iphone5c.jpg) 50% 50% no-repeat;
+}
+
+#years-30 {
+  background: url(img/promo_30.jpg) 50% 50% no-repeat;
+}
+
+#supplier {
+  background: url(img/promo_supplier.jpg) 45% 50% no-repeat;
+  width: 25%;
+  margin: 0.1% 0 0.1% 0;
+}
+
+.clear {
+  clear: left;
+}
+
+.footer-ul {
+  margin: 15px 13%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.border-r {
+  border-right: #ccc 1px solid;
+}
+
+.us-img {
+  border: none;
+  width: 50px;
+  background: url(img/usa.png) 20% 50% no-repeat;
+}
