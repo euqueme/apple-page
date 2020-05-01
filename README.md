@@ -23,7 +23,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/euqueme/apple-page">
-    <img src="img/mLogo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/euqueme/toy-app/master/app/assets/images/mLogo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Building with Background and Gradients</h3>
